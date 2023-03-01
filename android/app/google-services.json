@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "941529503016",
+    "project_id": "uploads-flutter",
+    "storage_bucket": "uploads-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941529503016:android:181026564bbab47eaaac1d",
+        "android_client_info": {
+          "package_name": "com.codigocorrecto.uploads_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941529503016-6jqe6d9flere5d1rkscuoslcb7jmnujp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACWy79pzhjyDBVpKNVa8G4LVoTiEDGcds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941529503016-6jqe6d9flere5d1rkscuoslcb7jmnujp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "941529503016-5re14htste01n3tdnia14idbthlf57cs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.codigocorrecto.uploadsFirebase"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941529503016:android:563c6566e34b697faaac1d",
+        "android_client_info": {
+          "package_name": "dev.josegaldamez.reportes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941529503016-6jqe6d9flere5d1rkscuoslcb7jmnujp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACWy79pzhjyDBVpKNVa8G4LVoTiEDGcds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941529503016-6jqe6d9flere5d1rkscuoslcb7jmnujp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "941529503016-5re14htste01n3tdnia14idbthlf57cs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.codigocorrecto.uploadsFirebase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

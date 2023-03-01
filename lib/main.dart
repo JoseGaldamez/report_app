@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
+
 import 'package:reportes/provider/providers.dart';
+import 'screens/screens.dart';
 
-import 'screens/application_screen.dart';
-
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(MultiProvider(
     providers: [
       ChangeNotifierProvider(create: (_) => ReportProvider()),
@@ -25,7 +31,11 @@ class App extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       title: 'Reportes',
-      home: const ApplicationScreen(),
+      initialRoute: 'home',
+      routes: {
+        'home': (_) => const ApplicationScreen(),
+        'create_report': (_) => const CreateReportScreen(),
+      },
     );
   }
 }

@@ -17,12 +17,12 @@ class ReportProvider with ChangeNotifier {
     notifyListeners();
   }
 
-  void clearImages(File image) {
+  void clearImages() {
     _images.clear();
     notifyListeners();
   }
 
-  void setPosition(Position position) {
+  void setPosition(Position? position) {
     _position = position;
     notifyListeners();
   }

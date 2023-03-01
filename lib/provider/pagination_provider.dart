@@ -28,4 +28,9 @@ class PaginationProvider with ChangeNotifier {
     _currentPage--;
     notifyListeners();
   }
+
+  void initPagination() {
+    _currentPage = 0;
+    notifyListeners();
+  }
 }
